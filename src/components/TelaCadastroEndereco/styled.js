@@ -9,8 +9,8 @@ export const FormContainer = styled.div`
 `;
 
 export const Form = styled.div`
-  min-width: 40vw;
-  min-height: 60vh;
+  width: 40vw;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,18 +33,6 @@ export const SendButton = styled.button`
   margin-top: 32px;
   cursor: pointer;
 `;
-
-export const BackToLoginButton = styled.button`
-    background-color: white;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 200px;
-    padding: 10px;
-    :hover{
-        background-color: black;
-        color: white;
-    }
-`
 
 export const StyledLabel = styled.label`
   width: 300px;
